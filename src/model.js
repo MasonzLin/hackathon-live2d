@@ -36,7 +36,7 @@ class Model {
         //     console.log(`Live2D 模型 ${modelId}-${modelTexturesId} 加载完成`);
         // }
 
-        loadlive2d("live2d", './model/LittleCat_vts/LittleCat.vtube.json');
+        loadlive2d("live2d", `${this.cdnPath}/model/LittleCat_vts/LittleCat.vtube.json`);
     }
 
     async loadRandModel() {
